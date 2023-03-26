@@ -1,0 +1,343 @@
+/* Style pour le header */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+   
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 0 auto;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 100px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+  
+  .logo img {
+    display: block;
+  width: 100px;
+  height: 60px;
+  }
+  
+  .nav-links ul {
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .nav-links li {
+    margin-left: 40px;
+ 
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  
+  .cta {
+    margin-left: auto;
+    
+    
+  }
+  
+  .btn {
+    background-color: #6fbae6;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background-color: #ecef6b;
+  }
+  
+  /* Section 1 */
+  section:nth-of-type(1) {
+    position: relative;
+    height: 700px;
+   
+  }
+  
+  section:nth-of-type(1) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    width: 101%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10 10%;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+   
+  }
+
+
+  
+  /* Section 2 */
+
+
+  
+
+  section:nth-of-type(2) {
+    background-color: #91c3e4;
+  }
+  
+  .bottom-images {
+    display: flex; /* Les éléments seront affichés en ligne */
+    flex-direction: column; /* Les éléments seront empilés verticalement */
+    align-items: center; /* Les éléments seront centrés horizontalement */
+    justify-content: center; /* Les éléments seront centrés verticalement */
+    text-align: center; /* Le texte sera centré */
+  }
+  
+  .bottom-images img {
+    max-width: 100%; /* L'image ne dépassera jamais la largeur de son conteneur */
+    height: auto; /* La hauteur de l'image est calculée automatiquement pour préserver les proportions */
+    margin-bottom: 1rem; /* Ajoute un espace entre chaque image et le texte suivant */
+  }
+  
+  .bottom-images h4 {
+    font-size: 1.5rem; /* Définit la taille de police du titre */
+    margin-bottom: 0.5rem; /* Ajoute un espace entre le titre et le texte suivant */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bottom-images p {
+    font-size: 1rem; /* Définit la taille de police du texte */
+    margin-bottom: 2rem; /* Ajoute un espace entre chaque texte */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+ /* Section 3*/
+  /* Style pour la section "Testimonials" */
+
+.testimonials {
+    text-align: center; /* Aligne le contenu au centre */
+    padding: 50px; /* Ajoute de la marge intérieure autour du contenu */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  /* Style pour les titres de témoignages */
+  .testimonials h2 {
+    font-size: 36px; /* Définit la taille de police du titre */
+    font-weight: bold; /* Définit la graisse de police du titre */
+    margin-bottom: 30px; /* Ajoute de l'espace sous le titre */
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  /* Style pour les cartes de témoignages */
+  .testimonial-card {
+    max-width: 600px; /* Définit la largeur maximale des cartes */
+    margin: 0 auto; /* Centre les cartes horizontalement */
+    padding: 30px; /* Ajoute de la marge intérieure autour des cartes */
+    background-color: #f4e361; /* Définit la couleur d'arrière-plan des cartes */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ajoute une ombre douce autour des cartes */
+    border-radius: 10px; /* Arrondit les coins des cartes */
+    margin-bottom: 30px; /* Ajoute de l'espace sous chaque carte */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style pour les images de témoignages */
+  .testimonial-card img {
+    width: 100px; /* Définit la largeur des images */
+    height: 100px; /* Définit la hauteur des images */
+    border-radius: 50%; /* Arrondit les coins des images pour créer un cercle */
+    margin: 0 auto 20px; /* Centre les images horizontalement et ajoute de l'espace en dessous */
+    display: block; /* Définit l'affichage des images en tant que bloc */
+  }
+  
+  /* Style pour les citations de témoignages */
+  .testimonial-card p {
+    font-size: 18px; /* Définit la taille de police des citations */
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous des citations */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style pour les noms de témoignages */
+  .testimonial-card h4 {
+    font-size: 24px; /* Définit la taille de police des noms */
+    margin-bottom: 0; /* Supprime la marge en dessous des noms */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /* le footer*/
+
+  footer {
+    background-color: #98d6ee;
+    color: #fff;
+    font-size: 14px;
+    padding: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-section p {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .socials a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .socials a:hover {
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #aaa;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #eee063;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contact-form button:hover {
+    background-color: #64afd1;
+  }
+  
+  .footer-bottom {
+    background-color: #b1bfec;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    /* Réduire la taille de la police pour les appareils mobiles */
+    nav {
+    font-size: 12px;
+    }
+    
+    /* Changer le format des liens de navigation */
+    .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    /* Ajouter une marge inférieure à chaque lien de navigation */
+    .nav-links li {
+    margin: 10px 0;
+    }
+    
+    /* Cacher le logo sur les appareils mobiles */
+    .logo img {
+    display: none;
+    }
+    
+    /* Changer la largeur de la section 1 sur les appareils mobiles */
+    section:nth-of-type(1) {
+    height: 400px;
+    }
+    
+    /* Changer la hauteur de l'overlay sur les appareils mobiles */
+    .overlay {
+    height: 100%;
+    margin-top: 0;
+    }
+    
+    /* Réduire la taille de la police pour les témoignages sur les appareils mobiles */
+    .testimonials h2 {
+    font-size: 24px;
+    }
+    }

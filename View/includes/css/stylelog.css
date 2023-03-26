@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+*,.register{
+    font-family: 'Rubik', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition:all .2s linear;
+ }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 400px;
+}
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+input[type=email], input[type=password] {
+    border: 1px solid #43a3e8;;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 12px;
+    width: 100%;
+}
+.btn,.register{
+    display: inline-block;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   font-size: 16px;
+   color:rgb(22, 75, 173);
+   cursor: pointer;
+   padding:12px;
+   text-transform: capitalize;
+   width: 100%;
+}
+.btn:hover{
+    background-color: #12f39d;
+}
+.error {
+    color: red;
+    margin-bottom: 16px;
+    text-align: center;
+}
+:root{
+   --bleu:#43a3e8;
+   --aqua:#2bb9c0;
+   --nice:#12f39d;
+   --black:#151313;
+   --white:#fff;
+   --light-color:#1160a1;
+   --light-white:#ffffff;
+   --light-bg:#ffffff;
+   --border:.2rem solid var(--aqua);
+   --box-shadow:0 .5rem 1rem rgba(16, 175, 151, 0.304);
+}
